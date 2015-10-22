@@ -1,1 +1,10 @@
-%h1 Hello!
+.site-container
+  = form_tag do
+    %dl.form.full
+      %dt 
+        %label Website url
+      %dd= text_field_tag :url
+  .url-list
+    %ul.sites
+      %li ak.ru
+      %li ya.ru
