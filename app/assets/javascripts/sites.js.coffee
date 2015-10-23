@@ -4,3 +4,7 @@
 $ -> 
   $('form').submit (e) ->
     e.preventDefault()
+
+  $('form input#url').keypress (e) ->
+    if ( e.which == 13 ) 
+      alert('Enter')

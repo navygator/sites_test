@@ -40,6 +40,9 @@ gem 'haml-rails'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'capybara', '~> 2.3.0'
+gem 'capybara-webkit', '~>  1.3.0'
+
 group :development, :test do
   gem 'faker'
 end

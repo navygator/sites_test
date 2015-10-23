@@ -10,7 +10,8 @@ body {
   line-height: 1.5;
   position: relative;
   color: #555;
-  background-color: #4B7399;
+  background-color: white;
+  margin: 0;
 }
 
 .container {
@@ -19,7 +20,14 @@ body {
   margin-right: auto;
   padding: 0 50px;
 }
-
+.header {
+  background: #4477bd url(http://www.getdrip.com/assets/external/bkg-drips-blue@2x-70d6dbf76911d151744a9dfca0b8fb83.gif) left top repeat;
+  background-size: 20px 24px;
+  border-bottom: 1px solid rgba(0,0,0,0.15);  
+}
+.splash {
+  padding: 55px 0;
+}
 .site-container {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
